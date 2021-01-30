@@ -1,0 +1,31 @@
+.ktable {
+  border: inset 1px #444444;
+  font-family: 'Meiryo UI','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+  table-layout: fixed;
+  padding: 0px;
+  border-collapse: collapse;
+  cursor: cell;
+}
+
+.ktable tr {
+}
+.ktable th {
+  padding: 0px;
+}
+.ktable td {
+  padding: 0px;
+}
+
+.ktable div {
+  border: solid 1px #444444;
+  margin: 0px;
+  user-select: none;
+}
+
+.ktable th div {
+  background: linear-gradient(#ffffff, #cccccc);
+}
+
+.ktable td div {
+}
+
