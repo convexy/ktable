@@ -1,3 +1,3 @@
 # KTable
-## Simple SpreadSheet JavaScript Library.
+## ～ Simple SpreadSheet JavaScript Library ～
 
