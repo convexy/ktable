@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sample of KTable.</title>
+    <link rel="stylesheet" href="./css/ktable.css">
+    <script src="./js/ktable.js"></script>
+    <script>
+
+        window.addEventListener("load", function () {
+            let ktable = new KTable({
+                id: "main",
+                columns: [
+                    { name: "Check", type: "boolean" },
+                    { name: "ID", type: "int" },
+                    { name: "Name", type: "string" },
+                ],
+            });
+
+            ktable.addRow([false, 1, "一郎"]);
+            ktable.addRow([false, 2, "二郎"]);
+            ktable.addRow([false, 3, "三郎"]);
+            ktable.addRow([true, 4, "四郎"]);
+            for (let i = 0; i < 100; i++) {
+                ktable.addRow([false, i, "ABC"]);
+            }
+        });
+    </script>
+
+</head>
+<table id="main">
+</table>
+
+</html>

@@ -1,0 +1,44 @@
+.ktable {
+  width: 200px;
+  height: 200px;
+  overflow: scroll;
+  font-family: 'Meiryo UI','ヒラギノ角ゴシック','Hiragino Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ヒラギノ明朝 ProN','Hiragino Mincho ProN',YuGothic,'Yu Gothic','ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+  border-collapse: collapse;
+  user-select: none;
+}
+
+.ktable thead tr {
+    border-bottom: 1px solid black;
+}
+
+.ktable th {
+    padding: 3px 10px;
+    border-right: 1px solid gray;
+}
+
+.ktable th:hover, .ktable td:hover {
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, .08);
+}
+
+.ktable .selected {
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, .4);
+}
+
+
+.ktable .rh {
+  background-color: whitesmoke;
+}
+
+
+.ktable tbody th, .ktable tbody td {
+    padding: 3px 10px;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid lightgray;
+  cursor: default;
+}
+
+.ktable tbody tr:nth-child(odd) {
+    background-color: whitesmoke;
+} 
+
+
